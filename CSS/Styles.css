@@ -1,6 +1,8 @@
 /*-------------div's-------------*/
 .top {
     background-color: #beebe9;
+    position: relative;
+    padding-top: 80px;
 }
 
 .middle {
@@ -14,14 +16,46 @@
     height: 200px;
     width: 200px;
 }
+.container {
+    height: 500px;
+    width: 1000px;
+    position: relative;
+    margin: 0 auto 0 auto;
 
+}
 /*-------------others-------------*/
 body {
     margin: 0px;
-
+    text-align: center;
+    font-family: sans-serif;
 }
 h1 {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+}
+.pro {
+    text-decoration: underline;
+}
+
+/*-------------images-------------*/
+.mountain {
+    display: block;
+    position: absolute;
+    left: 150px;
+    bottom: 20px;
+}
+.cloudtop {
+    height: 500px;
+    width: auto;
+    position: absolute;
+    top: -80px;
+    right: 0px;
+}
+.cloudbottom {
+    height: 400px;
+    width: auto;
+    position: absolute;
+   left: 0px;
+   top: -100px;
 }
